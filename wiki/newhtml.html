@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilosNH.css">
+    <title>Wiki</title>
+</head>
+
+<body>
+    <section class="cuerpo">
+        <h2>Creating a new Web Page</h2>
+        <form action="./cgi-bin/createWP.pl" method="post">
+            <div class="content">
+                <h4>
+                    Type a title:
+                </h4>
+                <input type="text" class="cajaTitulo" placeholder="Example_Title.md" required>
+                <h4>
+                    Type the content with Markdown format:
+                </h4>
+                <textarea name="txtA" class="cajaContent" required># Here you can write your code</textarea>
+                <div class="nextbotc">
+                    <input type="submit" value="Save code" class="buttonNH">
+                    <input type="button" value="Cancel" class="buttonNH">
+                    <input type="button" value="Save and show" class="buttonNH">
+                </div>
+            </div>
+        </form>
+    </section>
+
+</body>
+
+</html>
