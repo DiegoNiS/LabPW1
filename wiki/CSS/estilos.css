@@ -19,6 +19,14 @@ h2 {
     padding: 15px 10px;
     font-family: 'Noto Serif', serif;
     text-align: left;
+    margin-top: 15px;
+}
+
+.subtext, p {
+    padding: 15px 20px;
+    font-family: 'Noto Serif', serif;
+    text-align: left;
+    margin: 0px 30px;
 }
 
 .cuerpo{
@@ -51,6 +59,25 @@ a{
     padding: 5px 7px;
     font-weight: 700;
     margin: 0px 5px;
+}
+
+.divfrm{
+    display: block;
+    padding: 0px 10px;
+}
+
+.frm{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.frm .btn{
+    color: black;
+    background-color: #26df54;
+    border: 0px;
+    border-radius: 7px;
+    padding: 7px 7px; /*Margen por dentro*/
+    margin: 0px 7px; /*Margen por fuera*/
 }
 
 button{
