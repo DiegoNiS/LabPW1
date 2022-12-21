@@ -1,4 +1,4 @@
-#!D:\XAMP\perl\bin\perl.exe
+#!/usr/bin/perl
 
 use strict;
 use warnings;
@@ -68,7 +68,7 @@ while($line = <FILE>){
         }
     }
     elsif((length($line)eq 2) && !(length($parraf) eq 0)){
-        print OUT "<p>\n$parraf</p>\n";
+        print "<p>\n$parraf</p>\n";
         $parraf="";
     }
     elsif(length($line) > 2){
@@ -76,7 +76,7 @@ while($line = <FILE>){
         $parraf=$parraf.$line;
     }
 }
-print OUT "<p>\n$parraf</p>\n";
+print "<p>\n$parraf</p>\n";
 close(FILE);
 
 print <<HTML;
