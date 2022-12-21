@@ -3,6 +3,7 @@
 use strict;
 use warnings;
 use CGI;
+use utf8;
 
 my $q = CGI->new;
 my $fileName = $q->param('fileName');

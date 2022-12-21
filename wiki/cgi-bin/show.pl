@@ -38,7 +38,7 @@ foreach my $f (@list){
     if(length($f)>3 && substr($f, -3) eq ".md"){
         $fileName_ = substr($f, 0, -3);
         $fileName = join(" ", split("_", substr($f, 0, -3)));
-        print "<li class='item'><div class='urlItem'>Item:<a href='../markdownFiles/index.html'>$fileName</a></div><div class='divfrm'>";
+        print "<li class='item'><div class='urlItem'>Item:<a href='../markdownFiles/%fileName_.md'>$fileName</a></div><div class='divfrm'>";
         print "<form class='frm' action='./delete.pl'><input type='hidden' name='fileName' value='$fileName_'><input type='submit' class='btn' value='delete this'>";
         print "</form><form class='frm' action='./edit.pl'><input type='hidden' name='fileName' value='$fileName_'><input type='submit' class='btn' value='edit this'></form>";
         print "<form class='frm' action='./view.pl'><input type='hidden' name='fileName' value='$fileName_'><input type='submit' class='btn' value='show this'></form></div></li>";

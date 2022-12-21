@@ -10,6 +10,6 @@ sdfsfsdf
 
 e **ste es un* _hola_
 
-texto asjdhlsdfa liags flasf lasgdflag
+lorem ipsum megarduim kiloren mongar
 
 con varias lineas
